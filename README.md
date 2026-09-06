@@ -46,7 +46,7 @@ Los archivos de tipos describen la estructura de los datos GeoJSON. A continuaci
         {
             "type": "string",
             "geometry": {
-                "type": "string",
+                "type": "Polygon",
                 "coordinates": [[[[0]]]]
             },
             "properties": {
@@ -70,7 +70,7 @@ Los archivos de tipos describen la estructura de los datos GeoJSON. A continuaci
             "type": "string",
             "id": "string",
             "geometry": {
-                "type": "string",
+                "type": "MultiPolygon",
                 "coordinates": [[[0]]]
             },
             "properties": {
@@ -100,7 +100,7 @@ Los archivos de tipos describen la estructura de los datos GeoJSON. A continuaci
         {
             "type": "string",
             "geometry": {
-                "type": "string",
+                "type": "MultiPolygon",
                 "coordinates": [[[[0]]]]
             },
             "properties": {
