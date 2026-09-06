@@ -31,6 +31,7 @@ Este repositorio reúne la información geográfica y administrativa actualizada
                     └── distritos/
                         ├── provincia.geojson
                         └── [nombre_dist].geojson
+```
 
 ## Estructuras de datos
 
