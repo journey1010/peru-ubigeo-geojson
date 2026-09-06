@@ -1,4 +1,4 @@
-# 🗺️ GeoJSON y Lista de Ubigeos del Perú
+# GeoJSON y Lista de Ubigeos del Perú
 
 > **Fecha de actualización:** 05/09/2026  
 > Catálogo administrativo y límites territoriales vectoriales oficiales del Perú.
@@ -16,7 +16,7 @@ Este repositorio reúne la información geográfica y administrativa actualizada
 ```text
 .
 ├── catalogo/
-│   ├── departamentos.json (o .csv)
+│   ├── departamentos.json
 │   ├── provincias.json
 │   └── distritos.json
 └── GEOJSONS/
@@ -24,10 +24,10 @@ Este repositorio reúne la información geográfica y administrativa actualizada
     ├── provincias.geojson
     ├── distritos.geojson
     └── por_departamento/
-        └── [codigo_dep]/
+        └── [nombre_dep]/
             ├── departamento.geojson
             └── provincias/
-                └── [codigo_prov]/
-                    ├── provincia.geojson
+                └── [nombre_prov]/
                     └── distritos/
-                        └── [codigo_dist].geojson
+                        ├── provincia.geojson
+                        └── [nombre_dist].geojson
