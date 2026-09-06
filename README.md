@@ -31,3 +31,87 @@ Este repositorio reúne la información geográfica y administrativa actualizada
                     └── distritos/
                         ├── provincia.geojson
                         └── [nombre_dist].geojson
+
+## Estructuras de datos
+
+Los archivos de tipos describen la estructura de los datos GeoJSON. A continuación se muestran sus formas como JSON.
+
+### Departamentos
+
+```json
+{
+    "type": "string",
+    "name": "string",
+    "features": [
+        {
+            "type": "string",
+            "geometry": {
+                "type": "string",
+                "coordinates": [[[[0]]]]
+            },
+            "properties": {
+                "PROVINCIA": "string",
+                "name": "string",
+                "ID": "string",
+                "DEPARTAMEN": "string"
+            }
+        }
+    ]
+}
+```
+
+### Provincias
+
+```json
+{
+    "type": "string",
+    "features": [
+        {
+            "type": "string",
+            "id": "string",
+            "geometry": {
+                "type": "string",
+                "coordinates": [[[0]]]
+            },
+            "properties": {
+                "name": "string",
+                "id": "string",
+                "CNTRY": "string",
+                "TYPE": "string"
+            }
+        }
+    ]
+}
+```
+
+### Distritos
+
+```json
+{
+    "type": "string",
+    "name": "string",
+    "crs": {
+        "type": "string",
+        "properties": {
+            "name": "string"
+        }
+    },
+    "features": [
+        {
+            "type": "string",
+            "geometry": {
+                "type": "string",
+                "coordinates": [[[[0]]]]
+            },
+            "properties": {
+                "PROVINCIA": "string",
+                "DISTRITO": "string",
+                "name": "string",
+                "ID": "string",
+                "DEPARTAMEN": "string"
+            }
+        }
+    ]
+}
+```
+
